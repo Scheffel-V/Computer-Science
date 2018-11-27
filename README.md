@@ -1,7 +1,7 @@
 # Computer-Science
 ## Resumo sobre Ciência da Computação
 
-#### Sumário
+### Sumário
 1. Estruturas de Dados
    1. Filas
    2. Pilhas
@@ -16,7 +16,7 @@
    3. HeapSort
 
 
-#### Estruturas de Dados
+### Estruturas de Dados
 Uma **estrutura de dados** é uma coleção de valores e operações sobre tais valores. É uma implementação concreta de um **tipo abstrato de dado (TAD)**. Por exemplo, poderiamos definir uma estrutura de dados para representar uma *pessoa*, em pseudo-código, da seguinte forma:
 ```
 Pessoa = {
@@ -30,7 +30,7 @@ realizarAniversario(Pessoa pessoa1) = {
 }
 ```
 
-###### Filas
+#### Filas
 Uma fila é uma coleção de elementos encadeados cuja ideia principal é que só podemos _inserir um novo elemento no **final**_ da fila e só podemos _retirar um elemento do **inicio**_ da fila. Dessa forma, uma fila é uma estrutura do tipo **FIFO**, que significa **First In, First Out**.
 Exemplo em python:
 ```python
@@ -43,20 +43,20 @@ print fila
 >>> [20, 30, 40, 50, 60]
 ```
 
-###### Pilhas
+#### Pilhas
 
-###### Hash
+#### Hash
 
-###### Árvores
+#### Árvores
 
-###### Grafos
+#### Grafos
 
-###### Dicionários
+#### Dicionários
 
-#### Sorts
+### Sorts
 
-###### QuickSort
+#### QuickSort
 
-###### MergeSort
+#### MergeSort
 
-###### HeapSort
+#### HeapSort
