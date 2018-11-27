@@ -17,7 +17,7 @@
 
 
 ### Estruturas de Dados
-Uma **estrutura de dados** é uma coleção de valores e operações sobre tais valores. É uma implementação concreta de um **tipo abstrato de dado (TAD)**. Por exemplo, poderiamos definir uma estrutura de dados para representar uma *pessoa*, em pseudo-código, da seguinte forma:
+Uma **estrutura de dados** é uma coleção de valores e operações sobre tais valores. É uma implementação concreta de um **tipo abstrato de dado (TAD)**. Existem estruturas de dados comumente utilizadas como filas, pilhas, grafos, mas poderiamos definir uma estrutura de dados genérica para representar, por exemplo, uma *pessoa*:
 ```
 Pessoa = {
   Nome
