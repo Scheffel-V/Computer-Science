@@ -95,6 +95,7 @@ def pop(i):
 Um grafo é uma estrutura de dados, **G(V, E)**, onde **V** representa um conjunto *não-vazio* de **vértices** (também conhecidos como *nodos*), e **E** representa um subconjunto de **arestas**, que são pares de elementos do conjunto **V**.
 * Arestas podem ter direção, de forma que a aresta *(V1, V2)* seja diferente da aresta *(V2, V1)*. Os grafos que possuem arestas com uma direção, são chamados de **dígrafos**.
 * Arestas podem ter peso, isto é, um valor numérico associado à elas.
+
 ![Imagem do Grafo](https://raw.githubusercontent.com/Scheffel-V/Computer-Science/master/grafo.png)
 > Um exemplo de um grafo não-direcionado de 6 vértices e 7 arestas.
 
@@ -103,9 +104,10 @@ Há diferentes formas de armazenar o grafo na memória:
 * Estruturas do tipo **lista** são frequentemente usadas em grafos *esparsos* já que exigem *menor uso da memória*.
 ** Lista de adjacência: associa a *cada vértice* do grafo uma *lista* de todos os *outros vértices* com os quais ele *tem uma aresta*. 
 ** Lista de incidência: armazena para *cada vértice* uma *lista* de objetos que representam as *arestas incidentes a esse vértice*.
-* Estruturas do tipo matriz fornecem um rápido acesso em algumas aplicações, mas podem consumir uma grande quantidade de memória.
-** Matriz de incidência: linhas representando vértices e suas colunas as arestas.
-** Matriz de adjacência: ambas linhas e colunas possuem vértices. 
+
+* Estruturas do tipo **matriz** fornecem um *rápido acesso* em algumas aplicações, mas podem consumir uma *grande quantidade de memória*.
+** Matriz de incidência: linhas representando *vértices* e colunas representando *arestas*.
+** Matriz de adjacência: ambas linhas e colunas representam *vértices*. 
 ** Em ambos casos um 1 indica dois objetos adjacentes e 0 indica dois objetos não adjacentes.
 
 ### Dicionários
