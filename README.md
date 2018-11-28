@@ -1,18 +1,18 @@
 # Resumo sobre Ciência da Computação
-[GitHub](http://github.com)
-## Sumário
-1. Estruturas de Dados
-   1. Filas
-   2. Pilhas
-   3. Hash
-   4. Árvores
-   5. Grafos
-   6. Dicionários
 
-2. Sorts
-   1. QuickSort
-   2. MergeSort
-   3. HeapSort
+## Sumário
+1. [Estruturas de Dados](https://github.com/Scheffel-V/Computer-Science#estruturas-de-dados)
+   1. [Filas](https://github.com/Scheffel-V/Computer-Science#filas)
+   2. [Pilhas](https://github.com/Scheffel-V/Computer-Science#pilhas)
+   3. [Hash](https://github.com/Scheffel-V/Computer-Science#hash)
+   4. [Árvores](https://github.com/Scheffel-V/Computer-Science#árvores)
+   5. [Grafos](https://github.com/Scheffel-V/Computer-Science#grafos)
+   6. [Dicionários](https://github.com/Scheffel-V/Computer-Science#dicionários)
+
+2. [Sorts](https://github.com/Scheffel-V/Computer-Science#sorts)
+   1. [QuickSort](https://github.com/Scheffel-V/Computer-Science#quicksort)
+   2. [MergeSort](https://github.com/Scheffel-V/Computer-Science#mergesort)
+   3. [HeapSort](https://github.com/Scheffel-V/Computer-Science#pilhas#heapsort)
 
 
 ## Estruturas de Dados
