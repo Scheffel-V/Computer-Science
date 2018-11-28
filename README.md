@@ -134,7 +134,7 @@ No grafo de exemplo, o caminho (6, 4, 5, 2) é um caminho de comprimento 3.
   - A **complexidade temporal** de *ambos algoritmos* são proporcionais ao *número de vértices somados ao número de arestas* dos grafos aos quais eles atravessam.
 
 #### Algoritmo de Dijkstra
-
+![Imagem Dijkstra](https://raw.githubusercontent.com/Scheffel-V/Computer-Science/master/Dijkstra_Animation.gif)
 #### Algoritmo de Kruskal
 
 #### Algoritmo de Prim
