@@ -7,6 +7,12 @@
    3. [Hash](https://github.com/Scheffel-V/Computer-Science#hash)
    4. [Árvores](https://github.com/Scheffel-V/Computer-Science#árvores)
    5. [Grafos](https://github.com/Scheffel-V/Computer-Science#grafos)
+      1. Armazenamento em Memória
+      2. Caminho
+      3. Busca em Grafos
+      4. Algoritmo de Dijkstra
+      5. Algoritmo de Kruskal
+      6. Algoritmo de Prim
    6. [Dicionários](https://github.com/Scheffel-V/Computer-Science#dicionários)
 
 2. [Sorts](https://github.com/Scheffel-V/Computer-Science#sorts)
@@ -99,7 +105,7 @@ Um grafo é uma estrutura de dados, **G(V, E)**, onde **V** representa um conjun
 ![Imagem do Grafo](https://raw.githubusercontent.com/Scheffel-V/Computer-Science/master/grafo.png)
 > Um exemplo de um grafo não-direcionado de 6 vértices e 7 arestas.
 
-#### Armazenamento do Grafo em memória
+#### Armazenamento em Memória
 Há diferentes formas de armazenar o grafo na memória:
 - Estruturas do tipo **lista** são frequentemente usadas em grafos *esparsos* já que exigem *menor uso da memória*.
   - Lista de adjacência: associa a *cada vértice* do grafo uma *lista* de todos os *outros vértices* com os quais ele *tem uma aresta*. 
@@ -109,6 +115,17 @@ Há diferentes formas de armazenar o grafo na memória:
   - Matriz de incidência: linhas representando *vértices* e colunas representando *arestas*.
   - Matriz de adjacência: ambas linhas e colunas representam *vértices*. 
   - Em ambos casos um 1 indica dois objetos adjacentes e 0 indica dois objetos não adjacentes.
+
+#### Caminho
+
+#### Busca em Grafos
+
+#### Algoritmo de Dijkstra
+
+#### Algoritmo de Kruskal
+
+#### Algoritmo de Prim
+
 
 ### Dicionários
 
