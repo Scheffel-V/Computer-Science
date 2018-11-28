@@ -127,7 +127,9 @@ No grafo de exemplo, o caminho (6, 4, 5, 2) é um caminho de comprimento 3.
 
 #### Busca em Grafos
 - Busca em largura (Breadth-First Search ou BFS): visitar *todos os nós do nível n*, e só **depois** ir para o nível n+1. Utilizando uma **fila**: depois que um nó é visitado, s*eus filhos são colocados no final da fila* e o nó no início da fila é visitado. Assim, os nós do nível n+1 serão visitados somente *depois* de ter visitados todos os nós do nível n. 
+
 - Busca em profundidade (Depth-first search ou DFS): visitar *todos os filhos do nó inicial*, sempre tentanto se *aprofundar* ao máximo, até que se encontre o nó desejado. Se chegar no *último nível* (nó folha), retrocede (backtrack) e começa no próximo nó.  Numa implementação não-recursiva, *todos os nós expandidos recentemente* são adicionados a uma **pilha**, para realizar a exploração.
+  
   - A **complexidade espacial** de um algoritmo de *busca em profundidade* é **muito menor** que a de um algoritmo de *busca em largura*. 
   - A **complexidade temporal** de *ambos algoritmos* são proporcionais ao *número de vértices somados ao número de arestas* dos grafos aos quais eles atravessam.
 
