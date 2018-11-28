@@ -45,7 +45,7 @@ print fila
 * Complexidade da operação pop(0): **O(1)**
 
 ### Pilhas
-Uma pilha é uma coleção de elementos encadeados cuja ideia principal é que só podemos _inserir um novo elemento no **final**_ da pilha e só podemos _retirar um elemento do **final**_ da fila. Dessa forma, uma pilha é baseada no princípio **FILO**, que singifica **First In, Last Out**.
+Uma pilha é uma coleção de elementos encadeados cuja ideia principal é que só podemos _inserir um novo elemento no **final**_ da pilha e só podemos _retirar um elemento do **final**_ da pilha. Dessa forma, uma pilha é baseada no princípio **FILO**, que singifica **First In, Last Out**.
 Exemplo em python:
 ```python
 pilha = [10, 20, 30, 40, 50]
@@ -59,7 +59,7 @@ print pilha
 * Complexidade da operação append(): **O(1)**
 * Complexidade da operação pop(): **O(1)**
 
-É possível implementar uma fila com duas pilhas da seguinte forma:
+#### É possível implementar uma fila com duas pilhas da seguinte forma:
 * Toda vez que um elemento for inserido, ele é inserido normalmente na primeira pilha. 
 * Toda vez que um elemento for retirado, todos os elementos da primeira pilha são colocados na segunda pilha, de forma que o último elemento da segunda pilha seja o primeiro da primeira. Então, o último elemento da segunda pilha é retirado através da operação .pop(). Depois disso, precisamos retornar todos os elementos da segunda pilha para a primeira pilha.
 ```python
@@ -92,6 +92,21 @@ def pop(i):
 ### Árvores
 
 ### Grafos
+Um grafo é uma estrutura de dados, **G(V, E)**, onde **V** representa um conjunto *não-vazio* de **vértices** (também conhecidos como *nodos*), e **E** representa um subconjunto de **arestas**, que são pares de elementos do conjunto **V**.
+* Arestas podem ter direção, de forma que a aresta *(V1, V2)* seja diferente da aresta *(V2, V1)*. Os grafos que possuem arestas com uma direção, são chamados de **dígrafos**.
+* Arestas podem ter peso, isto é, um valor numérico associado à elas.
+![Imagem do Grafo](https://raw.githubusercontent.com/Scheffel-V/Computer-Science/master/grafo.png)
+> Um exemplo de um grafo não-direcionado de 6 vértices e 7 arestas.
+
+#### Armazenamento do Grafo em memória
+Há diferentes formas de armazenar o grafo na memória:
+* Estruturas do tipo **lista** são frequentemente usadas em grafos *esparsos* já que exigem *menor uso da memória*.
+** Lista de adjacência: associa a *cada vértice* do grafo uma *lista* de todos os *outros vértices* com os quais ele *tem uma aresta*. 
+** Lista de incidência: armazena para *cada vértice* uma *lista* de objetos que representam as *arestas incidentes a esse vértice*.
+* Estruturas do tipo matriz fornecem um rápido acesso em algumas aplicações, mas podem consumir uma grande quantidade de memória.
+** Matriz de incidência: linhas representando vértices e suas colunas as arestas.
+** Matriz de adjacência: ambas linhas e colunas possuem vértices. 
+** Em ambos casos um 1 indica dois objetos adjacentes e 0 indica dois objetos não adjacentes.
 
 ### Dicionários
 
