@@ -42,6 +42,8 @@ fila.pop(0) # Remove o primeiro elemento da fila
 print fila
 >>> [20, 30, 40, 50, 60]
 ```
+* Complexidade da operação append(): **O(1)**
+* Complexidade da operação pop(0): **O(1)**
 
 #### Pilhas
 Uma pilha é uma coleção de elementos encadeados cuja ideia principal é que só podemos _inserir um novo elemento no **final**_ da pilha e só podemos _retirar um elemento do **final**_ da fila. Dessa forma, uma pilha é baseada no princípio **FILO**, que singifica **First In, Last Out**.
@@ -59,8 +61,8 @@ print pilha
 * Complexidade da operação pop(): **O(1)**
 
 É possível implementar uma fila com duas pilhas da seguinte forma:
-*Toda vez que um elemento for inserido, ele é inserido normalmente na primeira pilha. 
-*Toda vez que um elemento for retirado, todos os elementos da primeira pilha são colocados na segunda pilha, de forma que o último elemento da segunda pilha seja o primeiro da primeira. Então, o último elemento da segunda pilha é retirado através da operação .pop(). Depois disso, precisamos retornar todos os elementos da segunda pilha para a primeira pilha.
+* Toda vez que um elemento for inserido, ele é inserido normalmente na primeira pilha. 
+* Toda vez que um elemento for retirado, todos os elementos da primeira pilha são colocados na segunda pilha, de forma que o último elemento da segunda pilha seja o primeiro da primeira. Então, o último elemento da segunda pilha é retirado através da operação .pop(). Depois disso, precisamos retornar todos os elementos da segunda pilha para a primeira pilha.
 ```python
 stack1 = Stack()
 stack2 = Stack()
