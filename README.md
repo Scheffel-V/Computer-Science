@@ -117,8 +117,19 @@ Há diferentes formas de armazenar o grafo na memória:
   - Em ambos casos um 1 indica dois objetos adjacentes e 0 indica dois objetos não adjacentes.
 
 #### Caminho
+Caminho é uma *sequência de vértices* tal que para cada um dos vértices, existe uma *aresta entre esse e o vértice seguinte*.
+No grafo de exemplo, o caminho (6, 4, 5, 2) é um caminho de comprimento 3.
+
+* Caminho euleriano: caminho que usa cada **aresta** exatamente *uma vez*. Se tal caminho existir, o grafo é chamado *traversável*.
+* Caminho hamiltoniano: caminho que visita cada **vértice** exatamente *uma vez*.
+
+**Ciclo** é um caminho que começa e acaba com o mesmo vértice. Um *ciclo simples* é um ciclo que tem *comprimento maior ou igual à 3*, e no qual o *vértice inicial* aparece uma segunda vez como *vértice final*, e todos os outros do ciclo aparecem *uma vez*.
 
 #### Busca em Grafos
+* Busca em largura (Breadth-First Search ou BFS): visitar todos os nós do nível n, e só depois ir para o nível n+1. Utilizando uma fila: depois que um nó é visitado, seus filhos são colocados no final da **fila** e o nó no início da fila é visitado. Assim, os nós do nível n+1 serão visitados somente depois de ter visitados todos os nós do nível n. 
+* Busca em profundidade (Depth-first search ou DFS): visitar todos os filhos do nó inicial, sempre tentanto se aprofundar ao máximo, até que se encontre o nó desejado. Se chegar no último nível (nó folha), retrocede (backtrack) e começa no próximo nó.  Numa implementação não-recursiva, todos os nós expandidos recentemente são adicionados a uma **pilha**, para realizar a exploração.
+* A complexidade espacial de um algoritmo de busca em profundidade é muito menor que a de um algoritmo de busca em largura. 
+* A complexidade temporal de ambos algoritmos são proporcionais ao número de vértices somados ao número de arestas dos grafos aos quais eles atravessam.
 
 #### Algoritmo de Dijkstra
 
