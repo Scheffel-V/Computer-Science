@@ -7,12 +7,12 @@
    3. [Hash](https://github.com/Scheffel-V/Computer-Science#hash)
    4. [Árvores](https://github.com/Scheffel-V/Computer-Science#árvores)
    5. [Grafos](https://github.com/Scheffel-V/Computer-Science#grafos)
-      1. Armazenamento em Memória
-      2. Caminho
-      3. Busca em Grafos
-      4. Algoritmo de Dijkstra
-      5. Algoritmo de Kruskal
-      6. Algoritmo de Prim
+      1. [Armazenamento em Memória](https://github.com/Scheffel-V/Computer-Science#armazenamento-em-memória)
+      2. [Caminho](https://github.com/Scheffel-V/Computer-Science#caminho)
+      3. [Busca em Grafos](https://github.com/Scheffel-V/Computer-Science#busca-em-grafos)
+      4. [Algoritmo de Dijkstra](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-dijkstra)
+      5. [Algoritmo de Kruskal](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-kruskal)
+      6. [Algoritmo de Prim](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-prim)
    6. [Dicionários](https://github.com/Scheffel-V/Computer-Science#dicionários)
 
 2. [Sorts](https://github.com/Scheffel-V/Computer-Science#sorts)
