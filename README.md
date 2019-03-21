@@ -13,7 +13,6 @@
       4. [Algoritmo de Dijkstra](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-dijkstra)
       5. [Algoritmo de Kruskal](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-kruskal)
       6. [Algoritmo de Prim](https://github.com/Scheffel-V/Computer-Science#algoritmo-de-prim)
-   6. [Dicionários](https://github.com/Scheffel-V/Computer-Science#dicionários)
 
 2. [Sorts](https://github.com/Scheffel-V/Computer-Science#sorts)
    1. [QuickSort](https://github.com/Scheffel-V/Computer-Science#quicksort)
@@ -165,7 +164,7 @@ O algoritmo considera um *conjunto S de menores caminhos*, iniciado com um vért
   para cada vértice adjacente a vértice_atual
     se distância[vértice] > distância[vértice_atual] + peso(vértice_atual, vértice)
         então distância[vértice] = distância[vértice_atual] + peso(vértice_atual, vértice)
-            π[v] = vértice_atual
+              π[vértice] = vértice_atual
   ```
   - peso(v1, v2) é o peso da aresta que vai de v1 até v2
   - extrair_mínimo(grafo) extrai o elemento vértice com menor valor distância[vértice]
@@ -176,9 +175,6 @@ O algoritmo considera um *conjunto S de menores caminhos*, iniciado com um vért
 #### Algoritmo de Kruskal
 
 #### Algoritmo de Prim
-
-
-### Dicionários
 
 ## Sorts
 
