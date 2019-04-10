@@ -183,3 +183,8 @@ O algoritmo considera um *conjunto S de menores caminhos*, iniciado com um vért
 ### MergeSort
 
 ### HeapSort
+
+   | teste | oi |
+   | --- | --- |
+   | valor1 | valor2 |
+   | valor12 | valor22|
